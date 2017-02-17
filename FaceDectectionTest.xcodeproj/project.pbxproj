@@ -12,6 +12,7 @@
 		C42973061D8F683D0089A320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42973041D8F683D0089A320 /* Main.storyboard */; };
 		C42973081D8F683D0089A320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42973071D8F683D0089A320 /* Assets.xcassets */; };
 		C429730B1D8F683D0089A320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42973091D8F683D0089A320 /* LaunchScreen.storyboard */; };
+		C42973131D8F68690089A320 /* Visage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42973121D8F68690089A320 /* Visage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C42973071D8F683D0089A320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C429730A1D8F683D0089A320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C429730C1D8F683D0089A320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42973121D8F68690089A320 /* Visage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C42972FF1D8F683D0089A320 /* FaceDectectionTest */ = {
 			isa = PBXGroup;
 			children = (
+				C42973121D8F68690089A320 /* Visage.swift */,
 				C42973001D8F683D0089A320 /* AppDelegate.swift */,
 				C42973021D8F683D0089A320 /* ViewController.swift */,
 				C42973041D8F683D0089A320 /* Main.storyboard */,
@@ -97,6 +100,7 @@
 					C42972FC1D8F683D0089A320 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 595GQGY9Q9;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42973031D8F683D0089A320 /* ViewController.swift in Sources */,
+				C42973131D8F68690089A320 /* Visage.swift in Sources */,
 				C42973011D8F683D0089A320 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
